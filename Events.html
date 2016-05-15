@@ -10,18 +10,62 @@
 			    display: inline-block; font-size: 16px;margin: 4px 2px; transition-duration: 0.4s;cursor: pointer; }
 			.button5 {color: white; border: 2px solid #e7e7e7; background-color:rgba(0,0,0,0.5)}
 			.button5:hover {background-color: rgba(128,128,128, 0.5)} 
-			.slideUp{
-				animation-name: slideUp;
-				-webkit-animation-name: slideUp;	
-			
-				animation-duration: 1s;	
-				-webkit-animation-duration: 1s;
-			
-				animation-timing-function: ease;	
-				-webkit-animation-timing-function: ease;
-			
-				visibility: visible !important;			
-			}
+
+.slideUp{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;			
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+	}
+	50%{
+		transform: translateY(-8%);
+	}
+	65%{
+		transform: translateY(4%);
+	}
+	80%{
+		transform: translateY(-4%);
+	}
+	95%{
+		transform: translateY(2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}	
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+	50%{
+		-webkit-transform: translateY(-8%);
+	}
+	65%{
+		-webkit-transform: translateY(4%);
+	}
+	80%{
+		-webkit-transform: translateY(-4%);
+	}
+	95%{
+		-webkit-transform: translateY(2%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
 		</style>
 	</head>
 	<body background="http://www.frenchtouch.events/wp-content/uploads/2016/01/My-Vision.jpg">
