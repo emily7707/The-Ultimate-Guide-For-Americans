@@ -10,20 +10,17 @@
 			    display: inline-block; font-size: 16px; margin: 4px 2px; transition-duration: 0.4s;cursor: pointer; }
 			.button5 {color: white; border: 2px solid #e7e7e7; background-color:rgba(0,0,0,0.5)}
 			.button5:hover {background-color: rgba(128,128,128, 0.5)} 
-			.slide1 {
-			  animation-duration: 1s;
-			  animation-name: slidein;
-			}
-			.slide2{animation-duration: 1s; animation-name: slidein; animation-delay: 0.3s;}
-			.slide3{animation-duration: 1s; animation-name: slidein; animation-delay: 0.6s;}
+			.slide1 {animation-duration: 1s;animation-name: slidein;}
+			.slide2{animation-duration: 1s; animation-name: slidein2; }
+			.slide3{animation-duration: 1s; animation-name: slidein2;}
 			@keyframes slidein {
-			  from {
-			    margin-top: 100%;
-			  }
+			  from {margin-top: 100%;}
+			  to {margin-top: 14%;}
+			}
 			
-			  to {
-			    margin-top: 14%;
-			  }
+			@keyframes slidein2{
+				from{margin-top:100%;}
+				to{margin-top:0%;}
 			}
 		</style>
 	</head>
