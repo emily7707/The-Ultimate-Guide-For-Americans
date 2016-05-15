@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+
+  <!-- <h1>Hello World!</h1>
+  <p>Resize the browser window to see the effect.</p> -->
+  <div class="row">
+    <div class="col-sm-6" style="background-color:black; min-height: 200px;">
+    <p>1. If you attend traditional Malaysian feast, dont be surprised if you dont see any chairs or tables around you.</p>
+    <p>2. There are rules and taboos that you must observe if you happen to be invited to a Malay home for a meal. Malays are also invariably muslims, therefore there is no pork, non-halal meat or alcohol beverages served in a Malay home.</p>   
+
+    </div>
+    <div class="col-sm-6" style="background-color:lightgrey; min-height: 200px " >
+    <img src="http://images.says.com/uploads/story_source/source_image/366233/ec7b.jpg" width="500px" height="200px">
+  </div>
+</div>
+
+</body>
+</html>
