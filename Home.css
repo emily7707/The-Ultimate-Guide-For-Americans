@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 14, 2016, 5:54:37 PM
+    Author     : emily01px2015
+*/
+body {
+    background-image: url("http://eskipaper.com/images/world-map-wallpaper-8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font: verdana;
+    color: white;
+}
+h1 {
+    position: fixed;
+    left: 300px;
+    font-size: 50px;
+}
+h2 {
+    position: fixed;
+    left: 600px;
+    top: 70px;
+    font-size: 30px;
+}
+p {
+    position: fixed;
+    top: 230px;
+    text-align: center;
+    width: 450px;
+    left: 380px;
+    font-size: 20px;
+    visibility: hidden;
+}
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+.button {
+    position: relative;
+    top: 480px;
+    left: 460px;
+    border: none;
+    color: #c517ff;
+    font-size: 20px;
+    text-align: center;
+    height: 45px;
+    padding: 12px 40px;
+    border-radius: 50px;
+    background-color: #c8dfff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:active {
+    transform: translateY(4px);
+}
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 4s;	
+	-webkit-animation-duration: 4s;
+        
+        animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.1;		
+	}
+	70% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 0.1;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.1;		
+	}
+	70% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.1;	
+	}
